@@ -1,3 +1,9 @@
+* body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
 .red {
   width: 150px;
   height: 150px;
@@ -8,10 +14,12 @@
   width: 150px;
   height: 150px;
   background-color: blue;
+  order: 2;
 }
 
 .yellow {
   width: 150px;
   height: 150px;
   background-color: yellow;
+  order: 1;
 }
